@@ -33,7 +33,7 @@ base_url = "http://pi-hole.local/admin"
 # You can find this password hash in the setupVars.conf file of your pihole
 # server which is typically is found in /etc/pihole/setupVars.conf.
 # Look for the PASSWORDHASH key.
-password = "26c06c0d368ccd073b5007394a82c8cef82564ebb0867ee77a51073673efa7cb"
+password = ""
 
 # Url to check the service status
 url_status = "%s/api.php?status&auth=%s" % (base_url, password)
