@@ -101,7 +101,9 @@ def bitbar():
      print('Enable Pi-hole | color=green href=%s' % url_enable)
     separator()
     
+    # installed version without branch
     #print("Core: %s" % versions['core_current']) + "| color=black"
+    # installed version with branch
     print("Core: %s (%s)" % (versions['core_current'],
                              versions['core_branch'])) + "| color=black"
     if versions['core_current'] != versions['core_latest']:
@@ -109,7 +111,9 @@ def bitbar():
     else:
      print("Up to date| color=green")
     separator()
+    # installed version without branch
     #print("Web: %s" % versions['web_current']) + "| color=black"
+    # installed version with branch
     print("Web: %s (%s)" % (versions['web_current'],
                             versions['web_branch'])) + "| color=black"
     if versions['web_current'] != versions['web_latest']:
@@ -117,7 +121,9 @@ def bitbar():
     else:
      print("Up to date| color=green")
     separator()
+    # installed version without branch
     #print("FTL: %s" % versions['FTL_current']) + "| color=black"
+    # installed version with branch
     print("FTL: %s (%s)" % (versions['FTL_current'],
                             versions['FTL_branch'])) + "| color=black"
     if versions['FTL_current'] != versions['FTL_latest']:
