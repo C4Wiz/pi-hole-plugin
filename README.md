@@ -1,1 +1,1 @@
-# pi-hole.30s.py
+# pi-hole plugin for bitbar
